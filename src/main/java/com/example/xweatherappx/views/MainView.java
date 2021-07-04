@@ -217,7 +217,7 @@ public class MainView<cityName> extends UI {
         footer.setHeight("40px");
         Label description = new Label();
         description.setCaptionAsHtml(true);
-        description.setValue("weatherX by Akshay Dubey. Powered By HeroKu X GitHub");
+        description.setValue("weatherX by Akshay Dubey. Powered By Heroku X GitHub");
         footer.addComponents(description);
         mainLayout.addComponents(footer);
     }
